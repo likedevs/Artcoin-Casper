@@ -1,0 +1,17 @@
+{
+  "name": "arctcoin-casper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/deploy.js",
+  "scripts": {
+    "generate-keys": "mkdir keys && casper-client keygen keys",
+    "deploy": "node src/deploy.js",
+    "transfer": "node src/transfer.js",
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "casper-cep18-js-client": "file:../client-js",
+    "casper-js-sdk": "^2.13.1"
+  }
+}

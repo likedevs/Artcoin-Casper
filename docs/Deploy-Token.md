@@ -31,7 +31,7 @@ Install the required dependencies:
 
 ## Edit the Deployment Script
 
-Start by opening the file `index.js` in your preferred text editor or IDE.
+Start by opening the file `deploy.js` in your preferred text editor or IDE.
 
 We'll start by redefining our constants. These start on line `5` and should look like the following:
 
