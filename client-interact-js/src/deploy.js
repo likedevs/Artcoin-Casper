@@ -1,4 +1,4 @@
-const {ContractWASM, CEP18Client} = require('client-js');
+const {ContractWASM, CEP18Client} = require('casper-cep18-js-client');
 const {Keys} = require('casper-js-sdk');
 const config = require('./config');
 
@@ -17,4 +17,4 @@ const deploy = cep18.install(
 
 deploy.send(config.nodeUrl)
   .then(deployHash => console.log('deploy hash - ' + deployHash))
-  .catch(error => console.err(error));
+  .catch(error => console.log(error));

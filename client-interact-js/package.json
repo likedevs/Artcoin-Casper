@@ -4,14 +4,15 @@
   "description": "",
   "main": "src/deploy.js",
   "scripts": {
-    "generate-keys": "mkdir keys && casper-client keygen keys",
+    "generate-keys": "rm -rf keys && mkdir keys && casper-client keygen keys",
+    "generate-recipient-keys": "rm -rf recipientKeys && mkdir recipientKeys && casper-client keygen recipientKeys",
     "deploy": "node src/deploy.js",
-    "transfer": "node src/transfer.js",
+    "transfer": "node src/transfer.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "casper-cep18-js-client": "file:../client-js",
-    "casper-js-sdk": "^2.13.1"
+    "casper-js-sdk": "^2.13.3"
   }
 }

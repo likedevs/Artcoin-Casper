@@ -6,9 +6,9 @@ const config = {
     name: 'Artcoin',
     symbol: 'AC',
     decimals: 9,
-    totalSupply: 1_000_000_000_000_000_000
+    totalSupply: 100_000_000_000_000
   },
-  recipientKeys: '../recipientAccount/secret_key.pem',
+  recipientKeys: './recipientKeys/secret_key.pem',
   contractHash: 'hash-366519ebaf58c936bc1d6de938c3dc43f0220b327dcf8a69f43bc1703109ce53'
 };
 
