@@ -23,7 +23,7 @@ The main functionality is provided via the CEP-18 struct, and is intended to be 
 ## Project Description
 ArtCoin - a Sharing Economy tool that facilitates the exchange of assets within the Creative Community and the usage of underutilized assets.
 ArtCoin is a bridge for Institutions and their communities to a sharing economy.
-
+ArtCoin.
 We are building:
 1. <b>ArtCoin currency:</b> an exchange coin for the underutilized assets
 2. <b>ArtCoin technology:</b> a technology that allows individuals and entities to exchange their underutilized assets (similar to PayPal smart buttons)
