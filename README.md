@@ -38,7 +38,7 @@ Make sure the `wasm32-unknown-unknown` Rust target is installed.
 make prepare
 ```
 
-<a id="build-smart-contracts"</a>
+<a id="build-smart-contracts"></a>
 ### Build Smart Contracts
 
 To build the example fungible token contract and supporting test contracts:
