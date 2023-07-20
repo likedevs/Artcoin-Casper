@@ -44,16 +44,16 @@ make prepare
 To build the example fungible token contract and supporting test contracts:
 
 ```
-make build-contracts
+make build-contract
 ```
 
-<a id="locating-smart-contract-wasm"</a>
+<a id="locating-smart-contract-wasm"></a>
 ### Locating Smart Contract Wasm
 
 The Wasm for your new project can be found in the following local directory:
 
 ```
-casper/cep18/target/wasm32-unknown-unknown/release/cep18_token.wasm
+target/wasm32-unknown-unknown/release/cep18.wasm
 ```
 
 ### Test
